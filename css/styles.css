@@ -1,0 +1,52 @@
+:root {
+  --punch: #ce5a57;
+  --faded-blue: #444c5c;
+  --ocean-blue: #78a5a3;
+  --warm: #e1b16a;
+}
+
+body {
+  background-color: var(--ocean-blue);
+  padding: 8px;
+}
+/* Спочатку пишемо стилі для телефонної версії, як дефолтні */
+
+.header {
+  max-width: 100%;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: var(--punch);
+}
+
+.logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--warm);
+  text-decoration: none;
+}
+
+/* Стилі для основного вмісту сторінки */
+
+.content {
+  margin-top: 15px;
+  max-width: 100%;
+  border-radius: 15px;
+  padding: 8px 10px;
+  background-color: var(--warm);
+}
+
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--faded-blue);
+}
+
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--faded-blue);
+}
